@@ -1,0 +1,1372 @@
+{
+  "version": 2.0,
+  "projects": [
+    {
+      "root": "Src/IWA-Java-main",
+      "filesToScan": [
+        "Src"
+      ],
+      "source-dirs": [],
+      "excluded-files": [],
+      "properties": {
+        "java": {
+          "version": "1.8",
+          "classpath": [
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-web",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-686906708/spring-boot-starter-web-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-json",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-62807162/spring-boot-starter-json-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.hibernate.validator",
+              "id": "hibernate-validator",
+              "version": "6.0.17.Final",
+              "path": "Libs/java/422215155/hibernate-validator-6.0.17.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.validation",
+              "id": "validation-api",
+              "version": "2.0.1.Final",
+              "path": "Libs/java/445488360/validation-api-2.0.1.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jboss.logging",
+              "id": "jboss-logging",
+              "version": "3.3.3.Final",
+              "path": "Libs/java/-1394159878/jboss-logging-3.3.3.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml",
+              "id": "classmate",
+              "version": "1.4.0",
+              "path": "Libs/java/2118886005/classmate-1.4.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-web",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/2057878805/spring-web-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-beans",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/-1212948446/spring-beans-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-webmvc",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/1282352455/spring-webmvc-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-context",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/1811679758/spring-context-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-expression",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/-1031900551/spring-expression-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/1368795623/spring-boot-starter-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-1493575259/spring-boot-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-autoconfigure",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/1662344751/spring-boot-autoconfigure-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.annotation",
+              "id": "javax.annotation-api",
+              "version": "1.3.2",
+              "path": "Libs/java/-267686243/javax.annotation-api-1.3.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-core",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/1806323006/spring-core-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-jcl",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/563763410/spring-jcl-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.yaml",
+              "id": "snakeyaml",
+              "version": "1.23",
+              "path": "Libs/java/-799469582/snakeyaml-1.23.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-thymeleaf",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/472238645/spring-boot-starter-thymeleaf-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.thymeleaf",
+              "id": "thymeleaf-spring5",
+              "version": "3.0.11.RELEASE",
+              "path": "Libs/java/-1147709457/thymeleaf-spring5-3.0.11.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.thymeleaf.extras",
+              "id": "thymeleaf-extras-java8time",
+              "version": "3.0.4.RELEASE",
+              "path": "Libs/java/1294378695/thymeleaf-extras-java8time-3.0.4.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-security",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-947617410/spring-boot-starter-security-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-aop",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/1170283299/spring-aop-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.security",
+              "id": "spring-security-config",
+              "version": "5.1.6.RELEASE",
+              "path": "Libs/java/1541670793/spring-security-config-5.1.6.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.security",
+              "id": "spring-security-web",
+              "version": "5.1.6.RELEASE",
+              "path": "Libs/java/-1692154487/spring-security-web-5.1.6.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.thymeleaf.extras",
+              "id": "thymeleaf-extras-springsecurity5",
+              "version": "3.0.4.RELEASE",
+              "path": "Libs/java/-1007852502/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.slf4j",
+              "id": "slf4j-api",
+              "version": "1.7.28",
+              "path": "Libs/java/-903379051/slf4j-api-1.7.28.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-data-jpa",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/1717072758/spring-boot-starter-data-jpa-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-aop",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-1574500102/spring-boot-starter-aop-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.aspectj",
+              "id": "aspectjweaver",
+              "version": "1.9.4",
+              "path": "Libs/java/438606696/aspectjweaver-1.9.4.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-jdbc",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-241480837/spring-boot-starter-jdbc-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.zaxxer",
+              "id": "HikariCP",
+              "version": "3.2.0",
+              "path": "Libs/java/1974866505/HikariCP-3.2.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-jdbc",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/-2021237094/spring-jdbc-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.transaction",
+              "id": "javax.transaction-api",
+              "version": "1.3",
+              "path": "Libs/java/2097147629/javax.transaction-api-1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.xml.bind",
+              "id": "jaxb-api",
+              "version": "2.3.1",
+              "path": "Libs/java/830284418/jaxb-api-2.3.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.activation",
+              "id": "javax.activation-api",
+              "version": "1.2.0",
+              "path": "Libs/java/-1950638152/javax.activation-api-1.2.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.hibernate",
+              "id": "hibernate-core",
+              "version": "5.3.11.Final",
+              "path": "Libs/java/-357689570/hibernate-core-5.3.11.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "javax.persistence",
+              "id": "javax.persistence-api",
+              "version": "2.2",
+              "path": "Libs/java/1648589807/javax.persistence-api-2.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.javassist",
+              "id": "javassist",
+              "version": "3.23.2-GA",
+              "path": "Libs/java/59030603/javassist-3.23.2-GA.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "net.bytebuddy",
+              "id": "byte-buddy",
+              "version": "1.9.16",
+              "path": "Libs/java/-1193083687/byte-buddy-1.9.16.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "antlr",
+              "id": "antlr",
+              "version": "2.7.7",
+              "path": "Libs/java/-1785519064/antlr-2.7.7.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jboss",
+              "id": "jandex",
+              "version": "2.0.5.Final",
+              "path": "Libs/java/1969510304/jandex-2.0.5.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.dom4j",
+              "id": "dom4j",
+              "version": "2.1.1",
+              "path": "Libs/java/-773422054/dom4j-2.1.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.hibernate.common",
+              "id": "hibernate-commons-annotations",
+              "version": "5.0.4.Final",
+              "path": "Libs/java/1899962650/hibernate-commons-annotations-5.0.4.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.data",
+              "id": "spring-data-jpa",
+              "version": "2.1.10.RELEASE",
+              "path": "Libs/java/999597158/spring-data-jpa-2.1.10.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.data",
+              "id": "spring-data-commons",
+              "version": "2.1.10.RELEASE",
+              "path": "Libs/java/-1322998181/spring-data-commons-2.1.10.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-orm",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/1179883531/spring-orm-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-tx",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/-2126007483/spring-tx-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework",
+              "id": "spring-aspects",
+              "version": "5.1.9.RELEASE",
+              "path": "Libs/java/-2038111846/spring-aspects-5.1.9.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "nz.net.ultraq.thymeleaf",
+              "id": "thymeleaf-layout-dialect",
+              "version": "2.3.0",
+              "path": "Libs/java/-134804743/thymeleaf-layout-dialect-2.3.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "nz.net.ultraq.thymeleaf",
+              "id": "thymeleaf-expression-processor",
+              "version": "1.1.3",
+              "path": "Libs/java/-1956078189/thymeleaf-expression-processor-1.1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.thymeleaf",
+              "id": "thymeleaf",
+              "version": "3.0.11.RELEASE",
+              "path": "Libs/java/2046992456/thymeleaf-3.0.11.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "ognl",
+              "id": "ognl",
+              "version": "3.1.12",
+              "path": "Libs/java/-716953865/ognl-3.1.12.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.attoparser",
+              "id": "attoparser",
+              "version": "2.0.5.RELEASE",
+              "path": "Libs/java/-1729487650/attoparser-2.0.5.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.unbescape",
+              "id": "unbescape",
+              "version": "1.1.6.RELEASE",
+              "path": "Libs/java/782464669/unbescape-1.1.6.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-tomcat",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/1681193250/spring-boot-starter-tomcat-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.tomcat.embed",
+              "id": "tomcat-embed-core",
+              "version": "9.0.24",
+              "path": "Libs/java/-771360138/tomcat-embed-core-9.0.24.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.tomcat.embed",
+              "id": "tomcat-embed-el",
+              "version": "9.0.24",
+              "path": "Libs/java/1480119950/tomcat-embed-el-9.0.24.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.tomcat.embed",
+              "id": "tomcat-embed-websocket",
+              "version": "9.0.24",
+              "path": "Libs/java/-1271935516/tomcat-embed-websocket-9.0.24.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-actuator",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/661461625/spring-boot-starter-actuator-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-actuator-autoconfigure",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-1189082267/spring-boot-actuator-autoconfigure-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-actuator",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/552484987/spring-boot-actuator-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.micrometer",
+              "id": "micrometer-core",
+              "version": "1.1.6",
+              "path": "Libs/java/-1221981528/micrometer-core-1.1.6.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.hdrhistogram",
+              "id": "HdrHistogram",
+              "version": "2.1.9",
+              "path": "Libs/java/-952357174/HdrHistogram-2.1.9.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.latencyutils",
+              "id": "LatencyUtils",
+              "version": "2.0.3",
+              "path": "Libs/java/-112279003/LatencyUtils-2.0.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-starter-log4j2",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-2145843338/spring-boot-starter-log4j2-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.logging.log4j",
+              "id": "log4j-slf4j-impl",
+              "version": "2.11.2",
+              "path": "Libs/java/1181383078/log4j-slf4j-impl-2.11.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.logging.log4j",
+              "id": "log4j-api",
+              "version": "2.11.2",
+              "path": "Libs/java/-982004948/log4j-api-2.11.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.logging.log4j",
+              "id": "log4j-core",
+              "version": "2.11.2",
+              "path": "Libs/java/-1366109613/log4j-core-2.11.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.logging.log4j",
+              "id": "log4j-jul",
+              "version": "2.11.2",
+              "path": "Libs/java/2028019687/log4j-jul-2.11.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.slf4j",
+              "id": "jul-to-slf4j",
+              "version": "1.7.28",
+              "path": "Libs/java/93004074/jul-to-slf4j-1.7.28.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.h2database",
+              "id": "h2",
+              "version": "1.4.197",
+              "path": "Libs/java/-1445873564/h2-1.4.197.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.passay",
+              "id": "passay",
+              "version": "1.5.0",
+              "path": "Libs/java/-845181724/passay-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "bootstrap",
+              "version": "4.5.3",
+              "path": "Libs/java/2103131852/bootstrap-4.5.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "popper.js",
+              "version": "1.16.0",
+              "path": "Libs/java/-1715810149/popper.js-1.16.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "jquery",
+              "version": "3.5.1",
+              "path": "Libs/java/-2047559995/jquery-3.5.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "font-awesome",
+              "version": "5.15.2",
+              "path": "Libs/java/1291676978/font-awesome-5.15.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "chartjs",
+              "version": "2.9.4",
+              "path": "Libs/java/1261682440/chartjs-2.9.4.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars.npm",
+              "id": "axios",
+              "version": "0.21.1",
+              "path": "Libs/java/2008866909/axios-0.21.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars.npm",
+              "id": "follow-redirects",
+              "version": "1.15.2",
+              "path": "Libs/java/1474844145/follow-redirects-1.15.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springdoc",
+              "id": "springdoc-openapi-ui",
+              "version": "1.4.3",
+              "path": "Libs/java/-1769778856/springdoc-openapi-ui-1.4.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springdoc",
+              "id": "springdoc-openapi-webmvc-core",
+              "version": "1.4.3",
+              "path": "Libs/java/-796075744/springdoc-openapi-webmvc-core-1.4.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "swagger-ui",
+              "version": "3.28.0",
+              "path": "Libs/java/-1888702174/swagger-ui-3.28.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.webjars",
+              "id": "webjars-locator-core",
+              "version": "0.35",
+              "path": "Libs/java/1002261249/webjars-locator-core-0.35.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.commons",
+              "id": "commons-compress",
+              "version": "1.9",
+              "path": "Libs/java/-1893907339/commons-compress-1.9.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springdoc",
+              "id": "springdoc-openapi-security",
+              "version": "1.4.3",
+              "path": "Libs/java/1040006436/springdoc-openapi-security-1.4.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springdoc",
+              "id": "springdoc-openapi-common",
+              "version": "1.4.3",
+              "path": "Libs/java/-876247567/springdoc-openapi-common-1.4.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.swagger.core.v3",
+              "id": "swagger-models",
+              "version": "2.1.3",
+              "path": "Libs/java/-1457457063/swagger-models-2.1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.swagger.core.v3",
+              "id": "swagger-annotations",
+              "version": "2.1.3",
+              "path": "Libs/java/1556516371/swagger-annotations-2.1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.swagger.core.v3",
+              "id": "swagger-integration",
+              "version": "2.1.3",
+              "path": "Libs/java/-391493725/swagger-integration-2.1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.swagger.core.v3",
+              "id": "swagger-core",
+              "version": "2.1.3",
+              "path": "Libs/java/-1994444116/swagger-core-2.1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "jakarta.xml.bind",
+              "id": "jakarta.xml.bind-api",
+              "version": "2.3.2",
+              "path": "Libs/java/1983319470/jakarta.xml.bind-api-2.3.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.dataformat",
+              "id": "jackson-dataformat-yaml",
+              "version": "2.13.0",
+              "path": "Libs/java/56948110/jackson-dataformat-yaml-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "jakarta.validation",
+              "id": "jakarta.validation-api",
+              "version": "2.0.2",
+              "path": "Libs/java/1081452763/jakarta.validation-api-2.0.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.github.classgraph",
+              "id": "classgraph",
+              "version": "4.8.69",
+              "path": "Libs/java/-184133582/classgraph-4.8.69.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.security",
+              "id": "spring-security-core",
+              "version": "5.1.6.RELEASE",
+              "path": "Libs/java/2050440292/spring-security-core-5.1.6.RELEASE.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.core",
+              "id": "jackson-annotations",
+              "version": "2.13.0",
+              "path": "Libs/java/764491681/jackson-annotations-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.module",
+              "id": "jackson-module-parameter-names",
+              "version": "2.13.0",
+              "path": "Libs/java/-1121152033/jackson-module-parameter-names-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.core",
+              "id": "jackson-core",
+              "version": "2.13.0",
+              "path": "Libs/java/1457977140/jackson-core-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.core",
+              "id": "jackson-databind",
+              "version": "2.13.0",
+              "path": "Libs/java/-1627792436/jackson-databind-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.datatype",
+              "id": "jackson-datatype-jdk8",
+              "version": "2.13.0",
+              "path": "Libs/java/-2083867794/jackson-datatype-jdk8-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.datatype",
+              "id": "jackson-datatype-jsr310",
+              "version": "2.13.0",
+              "path": "Libs/java/2066787564/jackson-datatype-jsr310-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.vonage",
+              "id": "client",
+              "version": "6.1.0",
+              "path": "Libs/java/1020220517/client-6.1.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "commons-codec",
+              "id": "commons-codec",
+              "version": "1.11",
+              "path": "Libs/java/-1965918671/commons-codec-1.11.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "commons-logging",
+              "id": "commons-logging",
+              "version": "1.2",
+              "path": "Libs/java/1548940181/commons-logging-1.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.httpcomponents",
+              "id": "httpclient",
+              "version": "4.5.9",
+              "path": "Libs/java/-1257080541/httpclient-4.5.9.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "commons-io",
+              "id": "commons-io",
+              "version": "2.5",
+              "path": "Libs/java/-1613529219/commons-io-2.5.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.commons",
+              "id": "commons-lang3",
+              "version": "3.8.1",
+              "path": "Libs/java/217767126/commons-lang3-3.8.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.openapitools.jackson.dataformat",
+              "id": "jackson-dataformat-hal",
+              "version": "1.0.4",
+              "path": "Libs/java/1566301081/jackson-dataformat-hal-1.0.4.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.jaxrs",
+              "id": "jackson-jaxrs-json-provider",
+              "version": "2.13.0",
+              "path": "Libs/java/1613723253/jackson-jaxrs-json-provider-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.jaxrs",
+              "id": "jackson-jaxrs-base",
+              "version": "2.13.0",
+              "path": "Libs/java/-1684467716/jackson-jaxrs-base-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.fasterxml.jackson.module",
+              "id": "jackson-module-jaxb-annotations",
+              "version": "2.13.0",
+              "path": "Libs/java/1441261727/jackson-module-jaxb-annotations-2.13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "jakarta.activation",
+              "id": "jakarta.activation-api",
+              "version": "1.2.1",
+              "path": "Libs/java/-94921797/jakarta.activation-api-1.2.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.nexmo",
+              "id": "jwt",
+              "version": "1.0.1",
+              "path": "Libs/java/1432818961/jwt-1.0.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jetbrains.kotlin",
+              "id": "kotlin-stdlib-jdk8",
+              "version": "1.2.71",
+              "path": "Libs/java/2063906088/kotlin-stdlib-jdk8-1.2.71.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jetbrains.kotlin",
+              "id": "kotlin-stdlib",
+              "version": "1.2.71",
+              "path": "Libs/java/41868032/kotlin-stdlib-1.2.71.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jetbrains.kotlin",
+              "id": "kotlin-stdlib-common",
+              "version": "1.2.71",
+              "path": "Libs/java/-595750812/kotlin-stdlib-common-1.2.71.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jetbrains",
+              "id": "annotations",
+              "version": "13.0",
+              "path": "Libs/java/1523289782/annotations-13.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jetbrains.kotlin",
+              "id": "kotlin-stdlib-jdk7",
+              "version": "1.2.71",
+              "path": "Libs/java/321381963/kotlin-stdlib-jdk7-1.2.71.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.jsonwebtoken",
+              "id": "jjwt-api",
+              "version": "0.10.5",
+              "path": "Libs/java/-1683432703/jjwt-api-0.10.5.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.jsonwebtoken",
+              "id": "jjwt-impl",
+              "version": "0.10.5",
+              "path": "Libs/java/1283860391/jjwt-impl-0.10.5.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.jsonwebtoken",
+              "id": "jjwt-jackson",
+              "version": "0.10.5",
+              "path": "Libs/java/-298935898/jjwt-jackson-0.10.5.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.codehaus.groovy",
+              "id": "groovy",
+              "version": "3.0.8",
+              "path": "Libs/java/1031371197/groovy-3.0.8.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.jsonwebtoken",
+              "id": "jjwt",
+              "version": "0.9.1",
+              "path": "Libs/java/796701972/jjwt-0.9.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.maven.wagon",
+              "id": "wagon-http",
+              "version": "3.4.1",
+              "path": "Libs/java/-1121352190/wagon-http-3.4.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.maven.wagon",
+              "id": "wagon-http-shared",
+              "version": "3.4.1",
+              "path": "Libs/java/924600206/wagon-http-shared-3.4.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.jsoup",
+              "id": "jsoup",
+              "version": "1.12.1",
+              "path": "Libs/java/-1494892243/jsoup-1.12.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.httpcomponents",
+              "id": "httpcore",
+              "version": "4.4.12",
+              "path": "Libs/java/1137957700/httpcore-4.4.12.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.slf4j",
+              "id": "jcl-over-slf4j",
+              "version": "1.7.28",
+              "path": "Libs/java/-74736827/jcl-over-slf4j-1.7.28.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.codehaus.plexus",
+              "id": "plexus-utils",
+              "version": "3.3.0",
+              "path": "Libs/java/-941220614/plexus-utils-3.3.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.maven.wagon",
+              "id": "wagon-provider-api",
+              "version": "3.4.1",
+              "path": "Libs/java/1331541592/wagon-provider-api-3.4.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.github.cliftonlabs",
+              "id": "json-simple",
+              "version": "2.3.1",
+              "path": "Libs/java/1836631498/json-simple-2.3.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-java",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/1639594229/selenium-java-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-api",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/409134175/selenium-api-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-chrome-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/1532681404/selenium-chrome-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.auto.service",
+              "id": "auto-service-annotations",
+              "version": "1.0",
+              "path": "Libs/java/-812068241/auto-service-annotations-1.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.auto.service",
+              "id": "auto-service",
+              "version": "1.0",
+              "path": "Libs/java/-1749769418/auto-service-1.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.auto",
+              "id": "auto-common",
+              "version": "1.0",
+              "path": "Libs/java/-452826369/auto-common-1.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.guava",
+              "id": "guava",
+              "version": "30.1.1-jre",
+              "path": "Libs/java/1466205627/guava-30.1.1-jre.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.guava",
+              "id": "failureaccess",
+              "version": "1.0.1",
+              "path": "Libs/java/-1568933122/failureaccess-1.0.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.guava",
+              "id": "listenablefuture",
+              "version": "9999.0-empty-to-avoid-conflict-with-guava",
+              "path": "Libs/java/-1544942875/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.code.findbugs",
+              "id": "jsr305",
+              "version": "3.0.2",
+              "path": "Libs/java/1408793293/jsr305-3.0.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.checkerframework",
+              "id": "checker-qual",
+              "version": "3.8.0",
+              "path": "Libs/java/-1341408535/checker-qual-3.8.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.errorprone",
+              "id": "error_prone_annotations",
+              "version": "2.5.1",
+              "path": "Libs/java/1368396412/error_prone_annotations-2.5.1.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.google.j2objc",
+              "id": "j2objc-annotations",
+              "version": "1.3",
+              "path": "Libs/java/-1379150237/j2objc-annotations-1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-chromium-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-1450962792/selenium-chromium-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-json",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/564365135/selenium-json-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-devtools-v85",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-1632422357/selenium-devtools-v85-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-devtools-v93",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/2110999276/selenium-devtools-v93-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-devtools-v94",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-2057203379/selenium-devtools-v94-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-edge-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/176549985/selenium-edge-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-firefox-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-870373509/selenium-firefox-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-firefox-xpi-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-1606611297/selenium-firefox-xpi-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-ie-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/119329374/selenium-ie-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-opera-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/1862488245/selenium-opera-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-remote-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-175634840/selenium-remote-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.beust",
+              "id": "jcommander",
+              "version": "1.81",
+              "path": "Libs/java/361955234/jcommander-1.81.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-buffer",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/1518268034/netty-buffer-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-codec-http",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/459488581/netty-codec-http-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-codec",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-166226616/netty-codec-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-handler",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-117160140/netty-handler-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-common",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-411392295/netty-common-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-transport-native-epoll",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-1814494832/netty-transport-native-epoll-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-transport-native-kqueue",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/1896765382/netty-transport-native-kqueue-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-transport-native-unix-common",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/594792900/netty-transport-native-unix-common-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-transport",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-612840393/netty-transport-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-resolver",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-1294047972/netty-resolver-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-api",
+              "version": "1.5.0",
+              "path": "Libs/java/533595029/opentelemetry-api-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-context",
+              "version": "1.5.0",
+              "path": "Libs/java/-1230810552/opentelemetry-context-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-exporter-logging",
+              "version": "1.5.0",
+              "path": "Libs/java/-1993988716/opentelemetry-exporter-logging-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-sdk-metrics",
+              "version": "1.5.0-alpha",
+              "path": "Libs/java/-216218886/opentelemetry-sdk-metrics-1.5.0-alpha.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-sdk-common",
+              "version": "1.5.0",
+              "path": "Libs/java/839432481/opentelemetry-sdk-common-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-sdk-extension-autoconfigure",
+              "version": "1.5.0-alpha",
+              "path": "Libs/java/1259367712/opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-sdk-trace",
+              "version": "1.5.0",
+              "path": "Libs/java/-1366381747/opentelemetry-sdk-trace-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-api-metrics",
+              "version": "1.5.0-alpha",
+              "path": "Libs/java/-256446246/opentelemetry-api-metrics-1.5.0-alpha.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-sdk",
+              "version": "1.5.0",
+              "path": "Libs/java/402249141/opentelemetry-sdk-1.5.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.opentelemetry",
+              "id": "opentelemetry-semconv",
+              "version": "1.5.0-alpha",
+              "path": "Libs/java/791057243/opentelemetry-semconv-1.5.0-alpha.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.ous",
+              "id": "jtoml",
+              "version": "2.0.0",
+              "path": "Libs/java/1556832119/jtoml-2.0.0.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.commons",
+              "id": "commons-exec",
+              "version": "1.3",
+              "path": "Libs/java/-1543338724/commons-exec-1.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.asynchttpclient",
+              "id": "async-http-client",
+              "version": "2.12.3",
+              "path": "Libs/java/-1312742752/async-http-client-2.12.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.asynchttpclient",
+              "id": "async-http-client-netty-utils",
+              "version": "2.12.3",
+              "path": "Libs/java/-864849079/async-http-client-netty-utils-2.12.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-codec-socks",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-484621978/netty-codec-socks-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "io.netty",
+              "id": "netty-handler-proxy",
+              "version": "4.1.39.Final",
+              "path": "Libs/java/-1474428043/netty-handler-proxy-4.1.39.Final.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.reactivestreams",
+              "id": "reactive-streams",
+              "version": "1.0.3",
+              "path": "Libs/java/1882054931/reactive-streams-1.0.3.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.typesafe.netty",
+              "id": "netty-reactive-streams",
+              "version": "2.0.4",
+              "path": "Libs/java/-290297666/netty-reactive-streams-2.0.4.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "com.sun.activation",
+              "id": "jakarta.activation",
+              "version": "1.2.2",
+              "path": "Libs/java/740727948/jakarta.activation-1.2.2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-http",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/131622575/selenium-http-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-safari-driver",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-769358558/selenium-safari-driver-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.seleniumhq.selenium",
+              "id": "selenium-support",
+              "version": "4.0.0-rc-2",
+              "path": "Libs/java/-1745033752/selenium-support-4.0.0-rc-2.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.apache.tika",
+              "id": "tika-core",
+              "version": "1.18",
+              "path": "Libs/java/967703254/tika-core-1.18.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.json",
+              "id": "json",
+              "version": "20220320",
+              "path": "Libs/java/-599659627/json-20220320.jar"
+            },
+            {
+              "type": "artifact",
+              "group": "org.springframework.boot",
+              "id": "spring-boot-devtools",
+              "version": "2.1.8.RELEASE",
+              "path": "Libs/java/-1321926266/spring-boot-devtools-2.1.8.RELEASE.jar"
+            },
+            {
+              "type": "file",
+              "path": "Libs/java/-1814494832/netty-transport-native-epoll-4.1.39.Final-linux-x86_64.jar"
+            },
+            {
+              "type": "file",
+              "path": "Libs/java/1896765382/netty-transport-native-kqueue-4.1.39.Final-osx-x86_64.jar"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
